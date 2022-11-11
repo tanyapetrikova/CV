@@ -1,11 +1,16 @@
 html {
-    font-family: Inter, sans-serif;
-    color: #333;
+    font-family: Montserrat, sans-serif;
+    color: #250146;
 }
 
 body {
     margin: 0;
-    background-color: #e5e5e5;
+    /* background-color: #e5e5e5; */
+    background-image: url(./photo_2022-11-11_02-59-20_____.jpg);
+    background-size: 50px;
+    background-repeat:repeat;
+    /* background-position: center; */
+
 }
 
 .bio section {
@@ -24,13 +29,13 @@ body {
 }
 
 .bio {
-    background-color: #fafafa;
-    height: 100vh;
+    background-color: #fcf5ff;
+    /* height: 100vh; */
     padding: 0 50px;
 }
 
 .history {
-    background-color: #fefefe;
+    background-color: #fdfaff;
     padding: 0 60px;
 }
 
@@ -43,12 +48,15 @@ body {
 }
 
 .zorro {
-    width: 400px;
+    width: 170px;
+    position: relative;
+    left: 20px;
 }
 
 h3 {
-    border-bottom: 1px solid #6D7081;
+    border-bottom: 1px solid #7b78cf;
     padding-bottom: 10px;
+    color: #4A4790;
 }
 
 h4 {
@@ -63,7 +71,7 @@ h4 {
 .links a {
     /* display: block; */
     margin-right: 20px;
-    color: #333;
+    color: #250146;
 }
 
 .progress-bar {
@@ -76,15 +84,17 @@ h4 {
 h1 {
     margin-top: 90px;
     margin-bottom: 10px;
+    color: #4A4790;
 }
 
 h2 {
     margin-top: 0;
     margin-bottom: 92px;
+    color: #4A4790;
 }
 
 .not-filled {
-    color: rgba(51, 51, 51, 0.5);
+    color: #2501465e;
 }
 
 .skill-wrapper-wrapper {
@@ -96,6 +106,35 @@ h2 {
 .skill-wrapper {
     margin-right: 140px;
 }
+
+.portfolio-wrapper {
+    display: flex;
+    width: 100%;
+    /* flex-wrap: wrap; */
+}
+
+.portfolio-link {    
+    height: 100px;
+    width: 150px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    box-sizing: border-box;
+}
+
+.eximia {
+    background-image: url(./Eximia.png);
+}
+
+.taily {
+    background-image: url(./Taily_Thumbmail.png);
+}
+
+.wallar {
+    background-image: url(./WallAR.png);
+}
+
 
 
 
